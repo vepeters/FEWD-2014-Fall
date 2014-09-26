@@ -1,4 +1,21 @@
 
+/*
+
+                 ________________
+                |                |_____    __
+                | Truman Catpote |     |::|  |
+                | owns your soul.|     |::|  |________
+                |________________|     |::|  |        /
+   /\__/\       |                \.____|::|__|      <
+  ( o_o  )_     |                      \::/  \._______\
+   (u--u   \_)  |
+    (||___   )==\
+  ,dP"/b/=( /P"/b\
+  |8 || 8\=== || 8
+  `b,  ,P  `b,  ,P
+    """`     """`
+*/
+
 body {
 
 	background: #666;
@@ -10,6 +27,7 @@ p {
 	font-size: 14px;
 	line-height: 1.8;
 	color: #333;
+	margin-top: 0px;
 }
 
 h1 {
@@ -18,6 +36,7 @@ h1 {
 	font-size: 42px;
 	line-height: 1;
 	color: #930;
+	margin-bottom: 0px;
 }
 
 h2 {
