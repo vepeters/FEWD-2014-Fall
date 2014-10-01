@@ -17,11 +17,14 @@
 */
 
 body {
-
 	background: #666;
-	margin:0px 0px;
-
+	margin: 0;
 }
+
+/*
+	Consistent formatting helps with readability
+*/
+
 p {
 	font-family: "Helvetica", sans-serif;
 	font-size: 14px;
@@ -31,7 +34,6 @@ p {
 }
 
 h1 {
-
 	font-family: "Georgia", serif;
 	font-weight: bold;
 	font-size: 42px;
@@ -41,7 +43,10 @@ h1 {
 }
 
 h2 {
-	font-family: "Georgia", bold;
+	/*
+		Should be valid font stack
+	*/
+	font-family: "Georgia", serif;
 	font-size: 28px;
 	line-height: 1;
 	color: #333;
@@ -66,7 +71,6 @@ h4 {
 }
 
 li {
-
 	font-family: "Helvetica", sans-serif;
 	font-size: 14px;
 	line-height: 1.8;
@@ -74,12 +78,10 @@ li {
 }
 
 a:link {
-
 	color: #930;
 }
 
 blockquote {
-
 	color: #333;
 	font-family: "Georgia", serif;
 	font-style: italic;
@@ -88,7 +90,6 @@ blockquote {
 	background: #f6f6f6;
 	border-left: 10px solid #e3e3e3;
 	padding: 15px;
-
 }
 
 .content {
@@ -99,7 +100,6 @@ blockquote {
 }
 
 .table {
-
 	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 }
