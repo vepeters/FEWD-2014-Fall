@@ -76,6 +76,7 @@ p {
 ol{
     margin-left: 2em;
     padding: 0em;
+    list-style: none;
 }
 
 li {
