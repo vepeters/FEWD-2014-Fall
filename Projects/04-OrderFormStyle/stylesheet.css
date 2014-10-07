@@ -32,7 +32,9 @@ form {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
-	margin-bottom: auto;
+
+	/* I just put this bottom margin to give myself some space */
+	margin-bottom: 200px;
 }
 
 h1 {
@@ -68,7 +70,7 @@ label {
 	line-height: 1;
 	text-transform: uppercase;
 	display: inline-block;
-	margin: 12px 0px 12px 0px;
+	margin: 20px 0px 12px 0px;
 
 }
 
@@ -140,8 +142,7 @@ td {
 
 #zip {
 	float: right;
-	width: auto;
-	clear: right;
+
 }
 
 #email {
