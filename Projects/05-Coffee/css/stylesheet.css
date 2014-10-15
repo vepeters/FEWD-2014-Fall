@@ -62,7 +62,7 @@ h2 {
 }
 
 p {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #666;
@@ -72,7 +72,7 @@ p {
 /* Menu */
 
 .menu_price {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	color: #999;
@@ -85,7 +85,7 @@ p {
 
 li {
 	list-style: none;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 15px;
 	color: #666;
 	bottom: 0px;
@@ -125,7 +125,7 @@ h3 {
 }
 
 .directions a {
-	font-family: "Helvetica", sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #603f26;
@@ -133,47 +133,70 @@ h3 {
 	padding: 5px;
 	text-decoration: none;
 	width: auto;
+	
 }
 
 
 /* Footer */
 
-.social a {
-	display: inline;
-	float: right;
-	margin-right: 10px;
-	font-family: "Helvetica", sans-serif;
+footer {
+
+	background: #241915;
+	color: #fff;
+	font-size: 13px;
+	padding: 50px 0;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer_icon {
+		width: 45px;
+		height: 45px;
+
+		background: url(../images/icon.png);
+		display: block;
+		margin: 0 auto 20px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+}
+
+.footer_list {
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: normal;
 	text-decoration: none;
+	margin: 0px 5px 0px 0px;
+	text-align: center;
+	padding-left: 0px;
+
 	
 }
 
-
-h4 {
-	text-indent: 100%;
-	display: none;
+.footer_list_item {
+		display: inline-block;
+		list-style: none;
+		margin: 0 5px;
 }
 
-footer {
-	width: 100%;
-	background-color: #241915;
 
-}
+.copyright {
 
-h5 {
-
-	font-family: "Helvetica", sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: normal;
-	float: left;
-	display: inline;
+	text-align: center;
 
 }
 
@@ -195,6 +218,7 @@ h5 {
 /*Tablet*/
 @media screen and (min-width: 740px) {
 
+
 	.logo_area {
 		height:400;
 	}
@@ -202,6 +226,18 @@ h5 {
 	.menu .menu_item_last_desktop {
 		border: none;
 	}
+
+	.copyright {
+			float: left;
+			margin: 0 0 0 20px;
+	}
+
+	.footer_list {
+			float: right;
+		}
+
+
+
 
 }
 
@@ -211,5 +247,9 @@ h5 {
 	.logo_area {
 		height:500;
 	}
+
+	h4 {
+
+		margin-bottom: -10%;
 
 }
