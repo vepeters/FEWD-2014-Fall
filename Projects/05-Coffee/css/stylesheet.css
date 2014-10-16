@@ -6,7 +6,7 @@
 	background: url(../images/beans.jpg) repeat center;
 	color: #fff;
 	height: 500px;
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom: 50px;
 	position: relative;
 }
@@ -185,6 +185,23 @@ footer a {
 		display: inline-block;
 		list-style: none;
 		margin: 0 5px;
+		float: left;
+}
+
+.footer_list_item:before {
+	content: '';
+	background: #fff;
+	display: block;
+	float: left;
+	margin: 10px 10px 0px 0px;
+	border-radius: 100%;
+	height: 4px;
+	width: 4px;
+}
+
+.footer_list_item_first:before {
+	display: none;
+	
 }
 
 
@@ -251,5 +268,9 @@ footer a {
 	h4 {
 
 		margin-bottom: -10%;
+
+	.footer_icon {
+		margin-bottom: -20%;
+	}
 
 }
