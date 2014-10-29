@@ -1,0 +1,102 @@
+/* Standard Styles */
+
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 70px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 0px;
+
+}
+
+h2 {
+	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+	padding: 20px 0px 20px 0px;
+}
+
+.logo_row {
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 1;
+	color: #2b3f4c;
+}
+
+.logo:before {
+	background: url(../images/icon_sprite.png) no-repeat 0 0;
+	content: '';
+	display: inline-block;
+	height: 60px;
+	vertical-align: middle;
+	width: 60px;
+	margin-right: 15px;
+}
+
+/* Section One */
+
+.frame_one {
+	background: url(../images/intro_bg.jpg);
+	background-position: center;
+	margin: 0px 0px;
+	height: 455px;
+}
+
+.copy_one {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #fff;
+	font-weight: 200;
+}
+
+.download_button a {
+	font-size: 20px;
+	color: #E77E04;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+
+	background-color: #fff;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	border-radius: 5px;
+	float: left;
+
+}
+
+.phone_image {
+	background: url(../images/intro_phone.png) no-repeat;
+}
+
+/* Mobile only */
+@media screen and (max-width: 739px) {
+
+	
+}
+
+/*Tablet*/
+@media screen and (min-width: 740px) {
+
+
+	
+}
+
+/*Screen*/
+@media screen and (min-width: 980px) {
+
+	
+}
+
+
