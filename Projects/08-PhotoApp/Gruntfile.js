@@ -1,6 +1,8 @@
 /*global module:false*/
 
+/*global module:false*/
 module.exports = function(grunt) {
+
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
