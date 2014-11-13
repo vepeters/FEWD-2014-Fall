@@ -14,7 +14,7 @@
   "js": {},
   "css": {
     "css/site.min.css": [
-      "components/normaliz-css/normalize.css",
+      "components/normalize-css/normalize.css",
       "components/Gridlock/fs.gridlock.min.css",
       "css/main.css"
     ]

@@ -10,39 +10,38 @@
 			<title>Picticious Pro</title>
 
 			<script src="components/modernizr/modernizr.js"></script>
-
+			
+			
 			<link rel="stylesheet" href="components/normalize-css/normalize.css">
 			<link rel="stylesheet" href="components/Gridlock/fs.gridlock.min.css">
 			<link rel="stylesheet" href="css/main.css">
+			
+
+			<!--<link rel="stylesheet" href="css/site.min.css">-->
+
 			<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Roboto:400italic,100,700italic,300,700,400' rel='stylesheet' type='text/css'>
 		</head>
 
 		<body class= "gridlock">
 			
 			<header class= "row logo_row">
-					<div class="mobile-full tablet-half desktop-4 max-4 logo_area">
+					<div class="mobile-full tablet-half desktop-4 max-4 max-push-1 logo_area">
 	       			 	<div class= "header_logo"></div>
 	       			 	<div class="logo"><strong>Picticious</strong>Pro</div>
 	     		 	</div>
 			</header>
 			
-			<section class= "row">
-				<div class= "mobile-full tablet-3 tablet-push-3 desktop-5 desktop-push-7 image_right"></div>
+			<section class="intro">
+				<div class="row intro_row">
+					<div class="mobile-full tablet-4 desktop-6 max-5 max-push-1">
+						<h1 class="intro_title">Nice Shot</h1>
+						<p class="intro_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+						<a href="#download" class="button intro_button">Download Now</a>
+					</div>
+				</div>
 			</section>
 
-			<section class= "frame_one">
-				<div class= "row">
-					<article class="mobile-full tablet-3 desktop-6 copy_one">	
-						<h1>Nice Shot</h1>
-						<h3 class="introcopy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</h3>	
-						<div class="mobile-full tablet-half desktop-half max-6 download_button">
-							<a href="#">Download Now</a>
-						</div>
-					</article>	
-				</div>	
-			</section>	
-
-			<section class= "row two">
+			<section class= "row features">
 					
 				<article class= "mobile-full tablet-2 desktop-4 icon_one">
 					<h2>Tag It All</h2>
@@ -64,40 +63,60 @@
 
 			</section>
 
-			<div class= "three">
-					<section class= "row">
-						<div class="mobile-full tablet-4 desktop-8 desktop-push-2 centered">
-							<h2>Capture Life</h2>
-							<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-							</p>
-							<a href="images/photos/thumb_01.jpg" class= "mobile-half tablet-1 desktop-1">
-								<img src="images/photos/thumb_01.jpg">
-							</a>
-						</div>
-					</section>
-				
-
-				<section class="gallery">
-					<div class"row">
-
-						<div class= "mobile-full tablet-3 desktop-4">
-							content
-						</div>
-
-						<a href="images/photos/thumb_01.png" class= "mobile-half tablet-1 desktop-2">
-							<img src="images/photos/thumb_01.png">
-						</a>
+			<div class= "gallery">
+				<section class= "row">
+					<div class="mobile-full tablet-4 desktop-3 max-3 gallery_copy">
+						<h2>Capture Life</h2>
+						<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
 					</div>
+					
+					<a href="images/photos/thumb_01.jpg" alt="" class= "mobile-half tablet-1 desktop-2 desktop-push-1 max-2 gallery_image tablet">
+						<img src="images/photos/thumb_01.jpg">
+					</a>
+					<a href="images/photos/thumb_02.jpg" alt="" class= "mobile-half tablet-1 desktop-2 max-2 gallery_image tablet">
+						<img src="images/photos/thumb_02.jpg">
+					</a>
+					<a href="images/photos/03.jpg" alt="" class="mobile-half tablet-1 desktop-2 max-2 gallery_image">
+						<img src="images/photos/thumb_03.jpg">
+					</a>
+					<a href="images/photos/04.jpg" alt="" class="mobile-half tablet-1 desktop-2 max-2 gallery_image">
+						<img src="images/photos/thumb_04.jpg">
+					</a>
+					<a href="images/photos/05.jpg" alt="" class="mobile-half tablet-1 desktop-2 desktop-push-1 max-2 gallery_image">
+						<img src="images/photos/thumb_05.jpg">
+					</a>
+					<a href="images/photos/06.jpg" alt="" class="mobile-half tablet-1 desktop-2 max-2 gallery_image">
+						<img src="images/photos/thumb_06.jpg">
+					</a>
+					<a href="images/photos/07.jpg" alt="" class="mobile-half tablet-1 desktop-2 max-2 gallery_image">
+						<img src="images/photos/thumb_07.jpg">
+					</a>
+					<a href="images/photos/08.jpg" alt="" class="mobile-half tablet-1 desktop-2 max-2 gallery_image">
+						<img src="images/photos/thumb_08.jpg">
+					</a>
 				</section>
 			</div>
 
-			<section class= "row four">
+	
+
+
+			<section class= "row purchase">
 				<div class="mobile-full tablet-4 tablet-push-1 desktop-8 desktop-push-2 centered">
-					<div class= "downloadbottom">
-						<a href="#"><h2>Download Now</h2></a>
-					</div>
-					<p>Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol.</p>
+					<div id= "download">
+						<h2>Download Now</h2>
+						<p>Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol.</p>
+					</div>		
 				</div>
+
+				<div class= "mobile-full tablet-3 desktop-3 centered buttons">
+					<a href="#" class="download_app">
+					</a>
+					<a href="#" class="download_google">
+					</a>
+					<a href="#" class="download_amazon">
+					</a>
+				</div>
+						
 			</section>
 
 			<footer class= "row footer">	
