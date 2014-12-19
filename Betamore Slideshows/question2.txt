@@ -1,0 +1,7 @@
+h1 {
+	background: url(logo.png) no-repeat;
+	content: '';
+	display: inline-block;
+	height: 125px;
+	width: 300px;
+}

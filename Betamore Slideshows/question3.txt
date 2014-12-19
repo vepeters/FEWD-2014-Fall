@@ -1,0 +1,12 @@
+
+/*
+	I was given assistance, by Nick Noble. 
+	I think we may have gone over javascript a little too quickly
+*/
+
+
+var person = {
+	name: "virginia",
+	age: 23,
+	hometown: "Baltimore"
+};
